@@ -4,4 +4,4 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<FluentProvider dir={dir} theme={teamsLightTheme}><App /></FluentProvider>);
+root.render(<FluentProvider dir={"ltr"} theme={teamsLightTheme}><App /></FluentProvider>);
